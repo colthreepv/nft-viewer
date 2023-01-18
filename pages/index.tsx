@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 
 const demoLink = '/mainnet/evm/43114/erc721/0x0540E4EE0C5CdBA347C2f0E011ACF8651bB70Eb9/tokens/8005'
@@ -12,8 +11,18 @@ const Home = () => (
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <main className={styles.main}>
-      <Link href={demoLink}>🫵feel free to start from this link</Link>
+    <main>
+      <div className="hero min-h-screen bg-base-200">
+        <div className="hero-content text-center">
+          <div className="max-w-md">
+            <h1 className="text-5xl font-bold">Hello there</h1>
+
+            <Link href={demoLink}>
+              <button className="btn btn-primary my-6">feel free to start from this link</button>
+            </Link>
+          </div>
+        </div>
+      </div>
     </main>
   </>
 )
