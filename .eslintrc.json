@@ -1,3 +1,11 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["standard-with-typescript", "next/core-web-vitals", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "comma-dangle": ["error", "always-multiline"],
+    "prettier/prettier": "warn"
+  }
 }
