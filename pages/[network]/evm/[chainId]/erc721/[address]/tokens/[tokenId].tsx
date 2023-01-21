@@ -1,4 +1,8 @@
-import { useRouter } from 'next/router'
+import NFTImage from '@/components/NFTImage/NFTImage.component'
+import NFTInfo from '@/components/NFTInfo/NFTInfo.component'
+import { getErc721Token, TokenInfo } from '@/utils/avascan.utils'
+import { GetServerSideProps } from 'next'
+import { FC } from 'react'
 
 interface TokenPageParams {
   network: string
@@ -7,23 +11,21 @@ interface TokenPageParams {
   tokenId: string
 }
 
-const TokenPage = () => {
-  const router = useRouter()
-  const { network, address, chainId, tokenId } = router.query as unknown as TokenPageParams
-
-  const originalUrl = `https://api.avascan.info/private/v2/network/${network}/evm/${chainId}/erc721/${address}/tokens/${tokenId}`
-
+const TokenPage: FC<TokenPageParams> = ({ network, address, chainId, tokenId }) => {
   return (
     <main>
-      <p>Hi this is the token page!</p>
-      <p>
-        were you looking for
-        <a href={originalUrl} target="_blank" rel="noreferrer">
-          {originalUrl}
-        </a>
-      </p>
+      <div className="grid grid-cols-2 sm:grid-cols-1">
+        <NFTImage></NFTImage>
+        <NFTInfo></NFTInfo>
+      </div>
     </main>
   )
+}
+
+export const getServerSideProps: GetServerSideProps<TokenInfo> = async (context) => {
+  const { network, chainId, address, tokenId } = context.query
+  const tokenData = await getErc721Token(network as string, Number(chainId), address as string, tokenId as string)
+  return { props: tokenData }
 }
 
 export default TokenPage
