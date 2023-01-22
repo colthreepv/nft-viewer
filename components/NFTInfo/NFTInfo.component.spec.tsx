@@ -38,7 +38,6 @@ describe('NFTInfo', () => {
 
     const { findByText } = rendered
     const contractAddress = await findByText(props.data.tokenAddress)
-
     expect(contractAddress).toBeInTheDocument()
   })
 })

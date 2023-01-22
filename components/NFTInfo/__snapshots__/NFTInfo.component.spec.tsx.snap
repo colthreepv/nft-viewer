@@ -56,7 +56,7 @@ exports[`NFTInfo Matches snapshot 1`] = `
               </p>
             </div>
             <div
-              class="ml-auto gap-y-2 block md:hidden"
+              class="ml-auto gap-y-2 block lg:hidden"
             >
               <p>
                 0x2a54...ab9A
@@ -75,7 +75,7 @@ exports[`NFTInfo Matches snapshot 1`] = `
               </p>
             </div>
             <div
-              class="ml-auto gap-y-2 hidden md:block"
+              class="ml-auto gap-y-2 hidden lg:block"
             >
               <p>
                 0x2a549e5f473212829d4000305f27529C1Ccbab9A
@@ -150,7 +150,7 @@ exports[`NFTInfo Matches snapshot 1`] = `
             </p>
           </div>
           <div
-            class="ml-auto gap-y-2 block md:hidden"
+            class="ml-auto gap-y-2 block lg:hidden"
           >
             <p>
               0x2a54...ab9A
@@ -169,7 +169,7 @@ exports[`NFTInfo Matches snapshot 1`] = `
             </p>
           </div>
           <div
-            class="ml-auto gap-y-2 hidden md:block"
+            class="ml-auto gap-y-2 hidden lg:block"
           >
             <p>
               0x2a549e5f473212829d4000305f27529C1Ccbab9A

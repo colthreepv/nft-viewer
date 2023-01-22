@@ -29,7 +29,7 @@ const NFTInfo: FC<NFTInfoProps> = ({ data }) => {
             <p>Token ID:</p>
             <p>Token Standard:</p>
           </div>
-          <div className="ml-auto gap-y-2 block md:hidden">
+          <div className="ml-auto gap-y-2 block lg:hidden">
             <p>{shortenAddress(data.currentOwner.id)}</p>
             <p>{shortenAddress(data.tokenAddress)}</p>
             <p>{shortenAddress(data.firstOwner.id)}</p>
@@ -37,7 +37,7 @@ const NFTInfo: FC<NFTInfoProps> = ({ data }) => {
             <p>{tokenStandard}</p>
           </div>
           {/* desktop variant */}
-          <div className="ml-auto gap-y-2 hidden md:block">
+          <div className="ml-auto gap-y-2 hidden lg:block">
             <p>{data.currentOwner.id}</p>
             <p>{data.tokenAddress}</p>
             <p>{data.firstOwner.id}</p>
