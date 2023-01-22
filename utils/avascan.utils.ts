@@ -32,7 +32,7 @@ export interface TokenInfo {
 }
 
 export const getErc721Token = async (network: string, chainId: number, address: string, tokenId: string) => {
-  const url = `https://api.avascan.info/private/v2/network/${network}/evm/${chainId}/erc721/${address}`
+  const url = `https://api.avascan.info/private/v2/network/${network}/evm/${chainId}/erc721/${address}/tokens/${tokenId}`
   const response = await fetch(url)
   const data = (await response.json()) as TokenInfo
 
