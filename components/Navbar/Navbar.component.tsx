@@ -4,7 +4,9 @@ import { FC } from 'react'
 const Navbar: FC<ClassName> = ({ className }) => {
   return (
     <div className={className}>
-      <p>Hi this is the Navbar component!</p>
+      <div className="min-h-[28px] bg-slate-600">
+        <p className="text-center">Navbar component here</p>
+      </div>
     </div>
   )
 }

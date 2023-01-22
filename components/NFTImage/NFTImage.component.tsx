@@ -2,10 +2,11 @@ import { FC } from 'react'
 import Image from 'next/image'
 import styled from 'styled-components'
 
-interface NFTImageProps {
+export interface NFTImageProps {
   collectionName: string
   tokenId: string
   src: string
+  onClick?: () => void
 }
 
 const HoverImage = styled(Image)`
@@ -15,9 +16,9 @@ const HoverImage = styled(Image)`
   }
 `
 
-const NFTImage: FC<NFTImageProps> = ({ collectionName, tokenId, src }) => {
+const NFTImage: FC<NFTImageProps> = ({ collectionName, tokenId, src, onClick }) => {
   return (
-    <div className="relative min-h-[50vh] md:min-h-[33vh] cursor-zoom-in">
+    <div className="relative min-h-[50vh] md:min-h-[33vh] cursor-zoom-in" onClick={onClick}>
       <HoverImage className="object-cover" src={src} alt={`${collectionName} #${tokenId}`} fill />
     </div>
   )

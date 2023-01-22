@@ -5,8 +5,8 @@ export interface TokenCollection {
   detail: {
     alias: string // 'NFT'
     owner: string // 'Cryptoseals'
-    type: string // 'erc721'
-    supertype: string // 'T'
+    type?: string // 'erc721'
+    supertype?: string // 'T'
     icon?: any // null
     checkmark: number // 0
   }
