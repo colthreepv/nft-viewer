@@ -3,12 +3,12 @@ export interface TokenCollection {
   name: string // 'CryptoSeals'
   symbol: string // 'SEAL'
   detail: {
-    alias: string // 'NFT'
-    owner: string // 'Cryptoseals'
+    alias?: string // 'NFT'
+    owner?: string // 'Cryptoseals'
     type?: string // 'erc721'
     supertype?: string // 'T'
     icon?: any // null
-    checkmark: number // 0
+    checkmark?: number // 0
   }
 }
 

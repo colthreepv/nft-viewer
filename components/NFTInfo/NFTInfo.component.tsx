@@ -2,7 +2,7 @@ import { TokenInfo } from '@/utils/avascan.utils'
 import { shortenAddress } from '@/utils/eth.utils'
 import { FC } from 'react'
 
-interface NFTInfoProps {
+export interface NFTInfoProps {
   data: TokenInfo
 }
 

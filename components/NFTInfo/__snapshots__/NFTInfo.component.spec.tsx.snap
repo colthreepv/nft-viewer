@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NFTInfo Matches snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <p
+          class="text-lg font-bold text-white"
+        >
+          SayCheese By KimiNaki
+           #
+          1
+        </p>
+        <a
+          href="about:blank"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <p
+            class="my-2 text-slate-500 font-bold"
+          >
+            SayCheese By KimiNaki
+             &gt;
+          </p>
+        </a>
+        <div
+          class="my-2 py-3 px-2 bg-slate-500 rounded-md text-white"
+        >
+          <p
+            class="font-extrabold"
+          >
+            Details
+          </p>
+          <div
+            class="grid grid-cols-[minmax(min-content,_1fr)_max-content] w-full"
+          >
+            <div
+              class="flex flex-col"
+            >
+              <p>
+                Owner:
+              </p>
+              <p>
+                Contract Address:
+              </p>
+              <p>
+                Creator:
+              </p>
+              <p>
+                Token ID:
+              </p>
+              <p>
+                Token Standard:
+              </p>
+            </div>
+            <div
+              class="ml-auto gap-y-2 block md:hidden"
+            >
+              <p>
+                0x2a54...ab9A
+              </p>
+              <p>
+                0xD6F7...2400
+              </p>
+              <p>
+                0x2a54...ab9A
+              </p>
+              <p>
+                1
+              </p>
+              <p>
+                ERC721
+              </p>
+            </div>
+            <div
+              class="ml-auto gap-y-2 hidden md:block"
+            >
+              <p>
+                0x2a549e5f473212829d4000305f27529C1Ccbab9A
+              </p>
+              <p>
+                0xD6F7b2E3D2BE5c12038B24AfCd779e2f179B2400
+              </p>
+              <p>
+                0x2a549e5f473212829d4000305f27529C1Ccbab9A
+              </p>
+              <p>
+                1
+              </p>
+              <p>
+                ERC721
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <p
+        class="text-lg font-bold text-white"
+      >
+        SayCheese By KimiNaki
+         #
+        1
+      </p>
+      <a
+        href="about:blank"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <p
+          class="my-2 text-slate-500 font-bold"
+        >
+          SayCheese By KimiNaki
+           &gt;
+        </p>
+      </a>
+      <div
+        class="my-2 py-3 px-2 bg-slate-500 rounded-md text-white"
+      >
+        <p
+          class="font-extrabold"
+        >
+          Details
+        </p>
+        <div
+          class="grid grid-cols-[minmax(min-content,_1fr)_max-content] w-full"
+        >
+          <div
+            class="flex flex-col"
+          >
+            <p>
+              Owner:
+            </p>
+            <p>
+              Contract Address:
+            </p>
+            <p>
+              Creator:
+            </p>
+            <p>
+              Token ID:
+            </p>
+            <p>
+              Token Standard:
+            </p>
+          </div>
+          <div
+            class="ml-auto gap-y-2 block md:hidden"
+          >
+            <p>
+              0x2a54...ab9A
+            </p>
+            <p>
+              0xD6F7...2400
+            </p>
+            <p>
+              0x2a54...ab9A
+            </p>
+            <p>
+              1
+            </p>
+            <p>
+              ERC721
+            </p>
+          </div>
+          <div
+            class="ml-auto gap-y-2 hidden md:block"
+          >
+            <p>
+              0x2a549e5f473212829d4000305f27529C1Ccbab9A
+            </p>
+            <p>
+              0xD6F7b2E3D2BE5c12038B24AfCd779e2f179B2400
+            </p>
+            <p>
+              0x2a549e5f473212829d4000305f27529C1Ccbab9A
+            </p>
+            <p>
+              1
+            </p>
+            <p>
+              ERC721
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
